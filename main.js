@@ -1,19 +1,16 @@
-const mario = document.querySelector(".mario");
-const  pipe = document.querySelector(".pipe");
+const mario = document.querySelector(".mario")
+const pipe = document.querySelector(".pipe");
 
 const jump = () => {
-  mario.ClassList.add("jump");
+    mario.classList.add("jump");
 
-
-document.addEventListener("keydown" , jump);
-
-
-
-
+    setTimeout (() =>)
+    mario.classList.remove("jump");
+}
 
 
 
-
+const loop = setInterval (() => {}); 
 
 
 
@@ -32,3 +29,7 @@ document.addEventListener("keydown" , jump);
 
 
 
+
+
+
+document.addEventListener("keydown", jump)
