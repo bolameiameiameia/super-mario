@@ -35,3 +35,13 @@
     posittion: absolute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
+}
+
+@KeyFrames pipe-animation {
+    from {
+        rigth: -80px;
+}  
+    to {
+       rigth: 100%;
+}
+    
