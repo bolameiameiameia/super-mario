@@ -1,4 +1,4 @@
-* {
+'* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient();
+    background: linear-gradient(#e54545);
 }
 
 .pipe {
@@ -45,3 +45,30 @@
        rigth: 100%;
 }
     
+@keyframes jump {
+    0% {
+        botton: 0;
+    }
+    
+    40%{
+        botton: 180px;
+    }
+
+    50% {
+        botton: 180px;
+    }
+
+    100% {
+        botton: 0;
+    }
+}
+@keyframes clouds-animation {
+    from{
+        rigth :100%
+    }
+} {
+    
+}
+
+
+}
