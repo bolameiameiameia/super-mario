@@ -28,6 +28,7 @@ const loop = setInterval (() => {
         mario.style.marginLeft = "50px";
 
         clearInterval(loop);
+        gameOverSreen.style.display = "flex";
     }
 },10);
 
